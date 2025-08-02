@@ -10,6 +10,12 @@ inline int nxt() {
   return x;
 }
 
+inline string nxtStr() {
+  string s;
+  cin >> s;
+  return s;
+}
+
 void solve() {
 
 }
@@ -27,4 +33,5 @@ int main() {
   }
 
   return 0;
+
 };
